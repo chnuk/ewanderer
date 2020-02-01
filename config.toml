@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://ewanderer.net"
+baseURL = "https://competent-saha-2b1b16.netlify.com"
 title = "Electronic Wanderer"
 theme = "hugo-theme-den-master"
 #enableRobotsTXT = true       # generate robots.txt
