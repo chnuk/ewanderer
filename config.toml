@@ -1,7 +1,7 @@
 # ------------------------------------- #
 # ---- General Settings --------------- #
 # ------------------------------------- #
-baseURL = "https://ewanderer.net"
+baseURL = "http://ewanderer.net"
 title = "Electronic Wanderer"
 theme = "hugo-theme-den-master"
 #enableRobotsTXT = true       # generate robots.txt
