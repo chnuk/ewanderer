@@ -40,7 +40,7 @@ defaultContentLanguageInSubdir = true
   pages = "/:slug/"
 
 [author]                     # required
-  name = "Jane Doe"
+  name = "Ewanderer"
 
 [sitemap]                    # required
   changefreq = "weekly"
@@ -107,7 +107,6 @@ defaultContentLanguageInSubdir = true
   name = "tags"
   weight = 100
 
-
 [languages.en]
   languageCode = "en"
   languageName = "English"
@@ -121,7 +120,7 @@ defaultContentLanguageInSubdir = true
     url = "category/albums/"
 
   [[languages.en.menu.social]]
-    name = "GitHub"
+    name = "Github"
     weight = 10
     identifier = "github"
     url = "https://github.com/shaform/hugo-theme-den/"
@@ -132,34 +131,59 @@ defaultContentLanguageInSubdir = true
     identifier = "about-me"
     url = "https://github.com/shaform/hugo-theme-den/"
 
-[languages.zh-tw]
-  languageCode = "zh-tw"
-  languageName = "繁體中文"
-  contentDir = "content/zh-tw"
+[languages.fr]
+  languageCode = "fr"
+  languageName = "Français"
+  contentDir = "content/fr"
   weight = 2
 
-  [languages.zh-tw.params]
-    description = "一個簡單的佈景。"
-
-  [[languages.zh-tw.menu.main]]
-    name = "筆記"
+  [[languages.fr.menu.main]]
+    name = "Albums"
     weight = 10
-    identifier = "notes"
-    url = "category/notes/"
-  [[languages.zh-tw.menu.main]]
-    name = "展示"
-    weight = 20
-    identifier = "demos"
-    url = "category/demos/"
+    identifier = "albums"
+    url = "category/albums/"
 
-  [[languages.zh-tw.menu.social]]
-    name = "GitHub"
-    weight = 10
-    identifier = "github"
-    url = "https://github.com/shaform/hugo-theme-den/"
+  [[languages.fr.menu.social]]
+      name = "Github"
+      weight = 10
+      identifier = "github"
+      url = "https://github.com/shaform/hugo-theme-den/"
 
-  [[languages.zh-tw.menu.links]]
-    name = "關於我"
-    weight = 10
-    identifier = "about-me"
-    url = "https://github.com/shaform/hugo-theme-den/"
+  [[languages.fr.menu.links]]
+      name = "A propos"
+      weight = 10
+      identifier = "a propos"
+      url = "https://github.com/shaform/hugo-theme-den/"
+
+
+#[languages.zh-tw]
+#  languageCode = "zh-tw"
+#  languageName = "繁體中文"
+#  contentDir = "content/zh-tw"
+#  weight = 3
+
+#  [languages.zh-tw.params]
+#    description = "一個簡單的佈景。"
+
+#  [[languages.zh-tw.menu.main]]
+#    name = "筆記"
+#    weight = 10
+#    identifier = "notes"
+#    url = "category/notes/"
+#  [[languages.zh-tw.menu.main]]
+#    name = "展示"
+#    weight = 20
+#    identifier = "demos"
+#    url = "category/demos/"
+
+#  [[languages.zh-tw.menu.social]]
+#    name = "GitHub"
+#    weight = 10
+#    identifier = "github"
+#    url = "https://github.com/shaform/hugo-theme-den/"
+
+#  [[languages.zh-tw.menu.links]]
+#    name = "關於我"
+#    weight = 10
+#    identifier = "about-me"
+#    url = "https://github.com/shaform/hugo-theme-den/"
