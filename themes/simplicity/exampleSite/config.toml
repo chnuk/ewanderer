@@ -1,4 +1,4 @@
-baseURL = "https://ewanderer.net"
+baseURL = "https://example.com"
 defaultContentLanguage = "en"
 disqusShortname = "test"
 enableEmoji = true
@@ -9,11 +9,11 @@ pygmentsCodeFences = true
 pygmentsStyle = "native"
 pygmentsUseClasses =  true
 theme = "simplicity"
-title = "Electronic Wanderer"
+title = "Simplicity - Hugo theme"
 [author]
   gravatarEmail = "test@example.com"
-  homepageText = "Electronic Wanderer"
-  name = "Ewanderer"
+  homepageText = "Simplicity"
+  name = "Przemysław `eshlox` Kołodziejczyk"
   rss = "/posts/index.xml"
 [imaging]
   anchor = "smart"
@@ -29,11 +29,6 @@ title = "Electronic Wanderer"
   weight = -90
   identifier = "photos"
   url = "/photos/"
-[[menu.pages]]
-  name = "Youtube"
-  weight = -80
-  identifier = "youtube"
-  url = "/youtube/"
 [outputs]
   home = ["HTML"]
   page = ["HTML"]
@@ -43,7 +38,7 @@ title = "Electronic Wanderer"
 [params]
   adsenseClient = ''
   adsenseSlot = ''
-  description = "Ewanderer artist webpage."
+  description = "A blog about everything."
   licence = "[Some Rights Reserved](http://creativecommons.org/licenses/by-sa/4.0/)."
   displayPostLanguage = true
 [permalinks]
